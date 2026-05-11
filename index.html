@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio de Jean Michel Ribeiro dos Santos — Desenvolvedor Full Stack apaixonado por lógica, automação e código limpo.">
+  <meta name="keywords" content="desenvolvedor, full stack, javascript, react, node.js, mysql, portfólio">
+  <title>Jean Michel · Desenvolvedor Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="progress-bar" id="progress"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      &lt;<span></span> jean michel ribeiro dos santos /&gt;
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#evolucao">Evolução</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+    <div class="hero-inner">
+      <div>
+        <div class="hero-tag">Full Stack Developer</div>
+        <h1 class="hero-name">
+          <span class="block">Jean</span>
+          <span class="block">Michel<span class="accent">.</span></span>
+        </h1>
+        <div class="hero-title">
+          <span id="typed-text"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-desc">
+          Desenvolvedor apaixonado por resolver problemas reais com código limpo, lógica precisa e arquitetura
+          inteligente. Construindo sistemas que fazem sentido — da ideia ao deploy.
+        </p>
+        <div class="hero-btns">
+          <a href="#projetos" class="btn btn-primary">Ver Projetos →</a>
+          <a href="https://github.com/Michel19y" target="_blank" class="btn btn-outline">GitHub</a>
+          <a href="https://www.linkedin.com/in/jean-michel-5a6703360/" target="_blank"
+            class="btn btn-outline">LinkedIn</a>
+          <a href="#contato" class="btn btn-outline">Contato</a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-ring">
+          <div class="avatar-inner">JM</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-text reveal">
+          <div class="section-label">Sobre mim</div>
+          <h2 class="section-title">Código é<br>raciocínio<br>materializado.</h2>
+          <p>
+            Sou desenvolvedor full stack com profundo interesse em <strong>automação, arquitetura de sistemas e lógica
+              de programação</strong>. Cada problema é um puzzle — e eu gosto de resolvê-los de forma limpa e eficiente.
+          </p>
+          <p>
+            Trabalho com backend, frontend e integração de sistemas, sempre buscando <strong>código que comunica
+              intenção</strong>: organizado, legível e fácil de manter. Para mim, tecnologia é ferramenta de criação — e
+            criar bem é um hábito.
+          </p>
+          <p>
+            Aprendizado contínuo é parte da rotina. Seja explorando uma nova linguagem, arquitetura de banco de dados ou
+            uma biblioteca de automação — a curiosidade é o motor.
+          </p>
+        </div>
+        <div class="sobre-stats reveal">
+          <div class="stat-card">
+            <div class="stat-num">6+</div>
+            <div class="stat-label">linguagens dominadas</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">12</div>
+            <div class="stat-label">projetos no GitHub</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">anos de estudo técnico</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">∞</div>
+            <div class="stat-label">problemas resolvidos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Competências</div>
+        <h2 class="section-title">Stack técnica</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon cyan">🖥</div>
+            <span class="skill-cat-name">Frontend</span>
+          </div>
+          <div class="skill-items">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Responsividade</span>
+            <span class="skill-tag">ES6+</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon green">⚙️</div>
+            <span class="skill-cat-name">Backend</span>
+          </div>
+          <div class="skill-items">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express</span>
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">MVC</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon amber">🗄</div>
+            <span class="skill-cat-name">Banco de Dados</span>
+          </div>
+          <div class="skill-items">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Modelagem ER</span>
+            <span class="skill-tag">Normalização</span>
+            <span class="skill-tag">Queries complexas</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon pink">🛠</div>
+            <span class="skill-cat-name">Ferramentas</span>
+          </div>
+          <div class="skill-items">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">n8n</span>
+            <span class="skill-tag">Docker</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon purple">🧠</div>
+            <span class="skill-cat-name">Fundamentos</span>
+          </div>
+          <div class="skill-items">
+            <span class="skill-tag">POO</span>
+            <span class="skill-tag">Estrutura de Dados</span>
+            <span class="skill-tag">Lógica</span>
+            <span class="skill-tag">Algoritmos</span>
+            <span class="skill-tag">Clean Code</span>
+            <span class="skill-tag">Java</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon cyan">🔗</div>
+            <span class="skill-cat-name">Automação & Infra</span>
+          </div>
+          <div class="skill-items">
+            <span class="skill-tag">Webhooks</span>
+            <span class="skill-tag">Chatwoot</span>
+            <span class="skill-tag">WhatsApp API</span>
+            <span class="skill-tag">Workflows</span>
+            <span class="skill-tag">Integrações</span>
+            <span class="skill-tag">Agentes IA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Portfólio</div>
+        <h2 class="section-title">Projetos selecionados</h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- 1 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-1">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon">&#9876;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Sistema de Heróis</h3>
+            <p class="project-desc">App web com Laravel para gerenciar heróis, habilidades, times e batalhas. MVC
+              completo, migrations, seeding e autenticação. Stack: PHP 64%, Blade 29%, CSS 6%.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-pink">Laravel</span>
+              <span class="project-tag tag-cyan">PHP</span>
+              <span class="project-tag tag-purple">Blade</span>
+              <span class="project-tag tag-amber">Auth</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/herois" target="_blank" class="project-btn project-btn-primary">Ver
+                Projeto</a>
+              <a href="https://github.com/Michel19y/herois" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-2">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#4fffb0">&#128241;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Projeto Uber — App Mobile</h3>
+            <p class="project-desc">App mobile com Expo + TypeScript usando file-based routing. Estrutura profissional
+              com hooks customizados, components, services, constants e utils separados. 94% TypeScript.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-cyan">TypeScript</span>
+              <span class="project-tag tag-green">Expo</span>
+              <span class="project-tag tag-purple">React Native</span>
+              <span class="project-tag tag-teal">File Routing</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/projetouber" target="_blank"
+                class="project-btn project-btn-primary">Ver Projeto</a>
+              <a href="https://github.com/Michel19y/projetouber" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-3">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#9b64ff">&#127981;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Naruto Gerenciador</h3>
+            <p class="project-desc">App mobile em TypeScript com Expo para gerenciar personagens do universo Naruto.
+              Arquitetura limpa: services, types, utils, hooks, components — 85% TypeScript.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-purple">TypeScript</span>
+              <span class="project-tag tag-cyan">Expo</span>
+              <span class="project-tag tag-green">React Native</span>
+              <span class="project-tag tag-amber">EAS Build</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/Naruto-Gerenciador" target="_blank"
+                class="project-btn project-btn-primary">Ver Projeto</a>
+              <a href="https://github.com/Michel19y/Naruto-Gerenciador" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-4">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#ffb740">&#127981;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">RPG — Dungeons & Dragons</h3>
+            <p class="project-desc">Aplicativo JavaScript para gerenciar fichas e sessões de D&D. Controle de
+              personagens, atributos e aventuras — unindo lógica de programação com criatividade.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-amber">JavaScript</span>
+              <span class="project-tag tag-cyan">HTML5</span>
+              <span class="project-tag tag-green">CSS3</span>
+              <span class="project-tag tag-purple">Game Logic</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/RPG-Dungeons-Dragons" target="_blank"
+                class="project-btn project-btn-primary">Ver Projeto</a>
+              <a href="https://github.com/Michel19y/RPG-Dungeons-Dragons" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-5">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#ff64b4">&#128295;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Películas Silvano</h3>
+            <p class="project-desc">Sistema PHP com padrões MVC e Singleton para gerenciar películas automotivas. Painel
+              admin, controle de estoque, marcas e modelos compatíveis. Bootstrap 5 responsivo.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-pink">PHP OOP</span>
+              <span class="project-tag tag-cyan">MySQL</span>
+              <span class="project-tag tag-amber">MVC</span>
+              <span class="project-tag tag-teal">Singleton</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/Peliculas" target="_blank"
+                class="project-btn project-btn-primary">Ver Projeto</a>
+              <a href="https://github.com/Michel19y/Peliculas" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-6">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#00dcdc">&#9733;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Sistema de Ninjas</h3>
+            <p class="project-desc">App PHP puro com MVC manual para acompanhar ninjas em eventos (Sol, Lua, Guilda,
+              Treino de Sobrevivencia). Progresso por estrelas, modal de exclusao e MySQL.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-teal">PHP</span>
+              <span class="project-tag tag-cyan">MySQL</span>
+              <span class="project-tag tag-amber">Bootstrap 5</span>
+              <span class="project-tag tag-purple">MVC</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/ninjas" target="_blank" class="project-btn project-btn-primary">Ver
+                Projeto</a>
+              <a href="https://github.com/Michel19y/ninjas" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-1">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#63b9ff">&#128293;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">CRUD Firebase — React Native</h3>
+            <p class="project-desc">App mobile React Native com Firebase: Login, SignUp, recuperacao de senha, telas de
+              Create/Read/Update/Delete. Autenticacao completa e CRUD em tempo real. 100% JS.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-cyan">React Native</span>
+              <span class="project-tag tag-green">Firebase</span>
+              <span class="project-tag tag-pink">Auth</span>
+              <span class="project-tag tag-amber">Realtime DB</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/Estudos-de-crud-em-react" target="_blank"
+                class="project-btn project-btn-primary">Ver Projeto</a>
+              <a href="https://github.com/Michel19y/Estudos-de-crud-em-react" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-2">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#4fffb0">&#128218;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">App de Livros</h3>
+            <p class="project-desc">App React Native integrado a Google Books API. Busca de livros com titulo, autor,
+              imagem de capa e descricao. Interface fluida e totalmente responsiva em JavaScript.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-green">React Native</span>
+              <span class="project-tag tag-cyan">JavaScript</span>
+              <span class="project-tag tag-amber">Google Books API</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/livros" target="_blank" class="project-btn project-btn-primary">Ver
+                Projeto</a>
+              <a href="https://github.com/Michel19y/livros" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-3">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#9b64ff">&#128295;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Floriani Assistencia</h3>
+            <p class="project-desc">Site HTML para assistencia tecnica — pagina web com informacoes de servicos, contato
+              e apresentacao institucional. Deploy via GitHub Pages.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-purple">HTML5</span>
+              <span class="project-tag tag-cyan">CSS3</span>
+              <span class="project-tag tag-green">GitHub Pages</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/florianiassistencia" target="_blank"
+                class="project-btn project-btn-primary">Ver Projeto</a>
+              <a href="https://github.com/Michel19y/florianiassistencia" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-4">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#ffb740">&#127760;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Templates IFSC — Deploy</h3>
+            <p class="project-desc">Exploracao do sistema de GitHub Pages com templates HTML. Estudo pratico de deploy
+              estatico, configuracao de repositorios e publicacao web via GitHub Actions.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-amber">HTML</span>
+              <span class="project-tag tag-cyan">GitHub Pages</span>
+              <span class="project-tag tag-green">Deploy</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/Templates-ifsc-Deploy" target="_blank"
+                class="project-btn project-btn-primary">Ver Projeto</a>
+              <a href="https://github.com/Michel19y/Templates-ifsc-Deploy" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-5">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#ff64b4">&#128196;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Perfil GitHub Pages</h3>
+            <p class="project-desc">Pagina pessoal publicada via GitHub Pages. Exploracao de deploy automatico, dominio
+              github.io e customizacao de perfil publico com HTML e CSS.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-pink">HTML</span>
+              <span class="project-tag tag-cyan">CSS</span>
+              <span class="project-tag tag-teal">GitHub Pages</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/Michel" target="_blank" class="project-btn project-btn-primary">Ver
+                Projeto</a>
+              <a href="https://github.com/Michel19y/Michel" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-6">
+            <div class="thumb-bg">
+              <div class="grid-lines"></div>
+            </div>
+            <div class="thumb-icon" style="color:#00dcdc">&#9881;</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Boilerplate Laravel</h3>
+            <p class="project-desc">Base estruturada para iniciar projetos Laravel com ambiente configurado, Vite para
+              assets, PHPUnit para testes e estrutura MVC pronta — 13 commits de refinamento.</p>
+            <div class="project-tags">
+              <span class="project-tag tag-pink">Laravel</span>
+              <span class="project-tag tag-cyan">PHP</span>
+              <span class="project-tag tag-amber">Vite</span>
+              <span class="project-tag tag-purple">PHPUnit</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Michel19y/Laravel" target="_blank" class="project-btn project-btn-primary">Ver
+                Projeto</a>
+              <a href="https://github.com/Michel19y/Laravel" target="_blank"
+                class="project-btn project-btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EVOLUÇÃO -->
+  <section id="evolucao">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Trajetória</div>
+        <h2 class="section-title">Evolução técnica</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 — INÍCIO</div>
+          <h3 class="timeline-title">Primeiros passos em programação</h3>
+          <p class="timeline-desc">Introdução à lógica de programação, HTML e CSS. Primeiro contato com algoritmos e
+            estruturas básicas. A faísca que acendeu tudo.</p>
+          <span class="timeline-badge"
+            style="background:var(--cyan-dim);color:var(--cyan);border:1px solid rgba(99,185,255,0.2)">HTML · CSS ·
+            Lógica</span>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 — EXPANSÃO</div>
+          <h3 class="timeline-title">JavaScript e backend</h3>
+          <p class="timeline-desc">Mergulho em JavaScript moderno, Node.js e banco de dados MySQL. Primeiros projetos
+            com backend real, APIs e autenticação.</p>
+          <span class="timeline-badge"
+            style="background:var(--green-dim);color:var(--green);border:1px solid rgba(79,255,176,0.2)">JS · Node.js ·
+            MySQL</span>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023 — PROFISSIONAL</div>
+          <h3 class="timeline-title">Automação e sistemas reais</h3>
+          <p class="timeline-desc">Trabalho profissional com automação via n8n, integração de APIs de WhatsApp, Chatwoot
+            e sistemas de atendimento ao cliente em produção.</p>
+          <span class="timeline-badge"
+            style="background:rgba(155,100,255,0.10);color:#9b64ff;border:1px solid rgba(155,100,255,0.2)">n8n ·
+            Automação · APIs</span>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024 — APROFUNDAMENTO</div>
+          <h3 class="timeline-title">Fundamentos e arquitetura</h3>
+          <p class="timeline-desc">Cursos de banco de dados (modelagem ER, normalização, SQL avançado), Java (POO,
+            estrutura de dados), matemática discreta e arquitetura MVC.</p>
+          <span class="timeline-badge"
+            style="background:rgba(255,183,64,0.10);color:#ffb740;border:1px solid rgba(255,183,64,0.2)">Java · BD ·
+            Arquitetura</span>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025 — AGORA</div>
+          <h3 class="timeline-title">IA, agentes e full stack</h3>
+          <p class="timeline-desc">Desenvolvimento de agentes com IA, projetos full stack completos, testes estruturados
+            e liderança técnica em projetos de automação com LLMs.</p>
+          <span class="timeline-badge"
+            style="background:rgba(255,100,180,0.10);color:#ff64b4;border:1px solid rgba(255,100,180,0.2)">IA · Full
+            Stack · LLMs</span>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" style="border-color:var(--green);box-shadow: 0 0 12px var(--green)"></div>
+          <div class="timeline-date" style="color:var(--green)">PRÓXIMO — METAS</div>
+          <h3 class="timeline-title">React, TypeScript e Cloud</h3>
+          <p class="timeline-desc">Domínio de React com TypeScript, deploy em cloud (AWS/GCP), arquiteturas de
+            microsserviços e contribuição open source.</p>
+          <span class="timeline-badge"
+            style="background:var(--green-dim);color:var(--green);border:1px solid rgba(79,255,176,0.2)">React · TS ·
+            Cloud</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Contato</div>
+        <h2 class="section-title">Vamos conversar</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Aberto a projetos e oportunidades</h3>
+          <p>Seja para colaborar em um projeto, discutir tecnologia ou explorar novas oportunidades — estou disponível.
+            Prefiro direto ao ponto.</p>
+          <div class="contact-links">
+            <a href="mailto:michel.jeanrs@gmail.com" class="contact-link">
+              <span class="contact-link-icon">✉️</span>
+              <span class="contact-link-text">michel.jeanrs@gmail.com</span>
+            </a>
+            <a href="https://github.com/Michel19y" target="_blank" class="contact-link">
+              <span class="contact-link-icon">🐙</span>
+              <span class="contact-link-text">github.com/Michel19y</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jean-michel-5a6703360/" target="_blank" class="contact-link">
+              <span class="contact-link-icon">💼</span>
+              <span class="contact-link-text">linkedin.com/in/michel</span>
+            </a>
+            <a href="https://instagram.com/froid" target="_blank" class="contact-link">
+              <span class="contact-link-icon">📸</span>
+              <span class="contact-link-text">@michel</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+
+          <div class="form-group">
+            <label class="form-label">Nome</label>
+            <input type="text" class="form-input" placeholder="Seu nome">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-input" placeholder="seu@email.com">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Mensagem</label>
+            <textarea class="form-textarea" placeholder="Sua mensagem..."></textarea>
+          </div>
+
+          <button class="form-submit" onclick="submitForm(event)">
+            Enviar mensagem →
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Feito com lógica e cuidado por <span>Jean Michel</span> · 2025</p>
+  </footer>
+
+  <script>
+
+  </script>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+  (function () {
+    emailjs.init({
+      publicKey: "i9d9kKy-rYaF1liwU",
+    });
+  })();
+
+  function submitForm(event) {
+    event.preventDefault();
+
+    const params = {
+      name: document.querySelector('input[type="text"]').value,
+      email: document.querySelector('input[type="email"]').value,
+      message: document.querySelector('textarea').value
+    };
+
+    emailjs.send(
+      "service_y3xhadq",
+      "template_0eubst9",
+      params
+    )
+      .then(function (response) {
+        console.log("SUCCESS!", response.status, response.text);
+        alert("Mensagem enviada!");
+      })
+      .catch(function (error) {
+        console.log("FAILED...", error);
+        alert(JSON.stringify(error));
+      });
+  }
+</script>
+
+</html>
